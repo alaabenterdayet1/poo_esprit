@@ -12,9 +12,9 @@ public class Animal {
         this.isManimal = isManimal;
     }
 
-
+    @Override
     public String toString() {
-        return "Famille : " + family + "\nNom : " + name + "\nAge : " + age + "\nMammifère : " + isManimal;
+        return super.toString() + " [Famille : " + family + ", Nom : " + name + ", Age : " + age + ", Mammifère : " + isManimal + "]";
     }
 
 }
