@@ -17,8 +17,14 @@ public class ZooManagement {
         zoo.addAnimal(elephant);
         zoo.addAnimal(zebra);
 
+        System.out.println(lion.toString());
+        System.out.println(elephant.toString());
+        System.out.println(zebra.toString());
+        System.out.println("****************************************");
         // Affichage du zoo avec les animaux
         System.out.println(zoo);
+
+
     }
 }
 
