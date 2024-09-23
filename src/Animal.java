@@ -14,8 +14,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return super.toString() + " [Famille : " + family + ", Nom : " + name + ", Age : " + age + ", Mammifère : " + isManimal + "]";
+        return "Famille : " + family + "Nom : " + name + "Age : " + age+"  " + "Est un mammifère : " + isManimal;
     }
-
 }
                      
