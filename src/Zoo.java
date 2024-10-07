@@ -14,13 +14,15 @@ public class Zoo {
     }
 
 
-    public void addAnimal(Animal animal) {
+
+    public boolean addAnimal(Animal animal) {
         for (int i = 0; i < animals.length; i++) {
             if (animals[i] == null) {
                 animals[i] = animal;
-                break;
+                return true;
             }
         }
+        return false;
     }
     //toString method
     public String toString() {
