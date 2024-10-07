@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/new project.iml" filepath="$PROJECT_DIR$/new project.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/firstproject.iml" filepath="$PROJECT_DIR$/firstproject.iml" />
+>>>>>>> 921486a5355b926d5ec39a143354c40bcaf9a51d
     </modules>
   </component>
 </project>
